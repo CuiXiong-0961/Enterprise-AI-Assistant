@@ -1,0 +1,4 @@
+chromadb>=0.4.22
+pydantic>=2.0
+sentence-transformers>=2.2.0
+rank-bm25>=0.2.2
