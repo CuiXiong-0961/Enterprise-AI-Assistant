@@ -1,2 +1,4 @@
 # 我的api-key
-# .env
+*.env
+.env
+1.env
