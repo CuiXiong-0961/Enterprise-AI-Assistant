@@ -1,0 +1,13 @@
+{
+  "turn_count": 1,
+  "windows": [],
+  "pending_turns": [
+    {
+      "turn_id": 1,
+      "timestamp": "2026-03-24T16:22:35.308031+00:00",
+      "user_message": "公司有没有实现离散的函数？",
+      "assistant_message": "**检索暂不可用**（向量库连接或配置异常），请稍后重试或检查 `repository/chroma_db` 与依赖。\n详情：(ProtocolError('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)), '(Request ID: 39b5e3e7-57b1-46a3-aa77-8eb562c237f7)')",
+      "intent": "cpp_query"
+    }
+  ]
+}

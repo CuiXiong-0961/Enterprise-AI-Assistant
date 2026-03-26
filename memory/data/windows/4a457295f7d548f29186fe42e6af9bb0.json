@@ -1,0 +1,13 @@
+{
+  "turn_count": 1,
+  "windows": [],
+  "pending_turns": [
+    {
+      "turn_id": 1,
+      "timestamp": "2026-03-24T16:05:58.357556+00:00",
+      "user_message": "公司里有没有离散曲线的方法？",
+      "assistant_message": "该能力暂未开放。当前仅支持 **C++ 头文件 / 实现相关查询**。\n\n后续将开放：设计或培训资料、Bug、行政条例等。",
+      "intent": "policy_query"
+    }
+  ]
+}

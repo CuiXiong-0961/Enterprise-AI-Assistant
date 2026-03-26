@@ -1,0 +1,27 @@
+{
+  "turn_count": 3,
+  "windows": [],
+  "pending_turns": [
+    {
+      "turn_id": 1,
+      "timestamp": "2026-03-24T16:37:29.800740+00:00",
+      "user_message": "公司内有没有离散的函数？",
+      "assistant_message": "根据检索片段，公司内有离散的函数。具体包括：\n1. discretizeSurfaceByParam - 对曲面进行等参数离散\n2. discretizeSurfaceAdaptive - 对曲面进行自适应离散\n3. discretizeCurveAdaptive - 对曲线进行自适应离散\n这些函数都位于 GeomDiscretizer.hxx 文件中。\n来源：GeomDiscretizer.hxx\n\n**引用来源**：\n- GeomDiscretizer.hxx",
+      "intent": "cpp_query"
+    },
+    {
+      "turn_id": 2,
+      "timestamp": "2026-03-24T16:38:13.377171+00:00",
+      "user_message": "公司内部有没有 有关网格的函数实现？",
+      "assistant_message": "根据检索片段，公司内部存在与网格相关的函数实现。片段中明确提到了网格生成函数（如generateTriMesh）、网格数据结构（TriMesh）以及网格生成参数设置函数（setTolerance）。\n\n**引用来源**：\n- SurfaceMesher.hxx",
+      "intent": "cpp_query"
+    },
+    {
+      "turn_id": 3,
+      "timestamp": "2026-03-24T16:38:53.516607+00:00",
+      "user_message": "公司内部有没有求解两个向量相加的函数实现？",
+      "assistant_message": "有。检索片段显示存在一个名为 add 的函数，用于计算两个三维向量（Vec3）的逐分量加法，返回结果向量。\n\n**引用来源**：\n- GeomVectorOps.hxx",
+      "intent": "cpp_query"
+    }
+  ]
+}
